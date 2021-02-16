@@ -1,0 +1,18 @@
+[user]
+	name = vaclo
+	email = filip@vaclavik.xyz
+[alias]
+	st = status -sb
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	rv = remote -v
+	d = diff
+	gl = config --global -l
+	p = push
+[core]
+	editor = vim
+[init]
+	defaultBranch = master
+[credential]
+	helper = cache --timeout 7200
