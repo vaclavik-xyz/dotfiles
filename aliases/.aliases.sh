@@ -19,15 +19,15 @@ alias install="sudo zypper in"
 
 
 ### perform 'ls' after 'rm' if successful
-rmls() {
-  rm "$*"
-  RESULT=$?
-  if [ "$RESULT" -eq 0 ]; then
-    ls
-  fi
-}
-
-alias rm='rmls'
+# rmls() {
+#   rm "$*"
+#   RESULT=$?
+#   if [ "$RESULT" -eq 0 ]; then
+#     ls
+#   fi
+# }
+#
+# alias rm='rmls'
 
 ### perform 'ls' after 'cd' if successful
 cdls() {
