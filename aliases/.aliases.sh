@@ -15,6 +15,12 @@ alias install="sudo zypper in"
 # SYSTEM
 ###############################
 
+## ls
+alias ls='ls -F -h --color=always -v --author --time-style=long-iso'
+
+## ls correction
+alias sl='ls -F -h --color=always -v --author --time-style=long-iso'
+
 ## Functions
 
 
@@ -48,9 +54,6 @@ alias mkdir="mkdir -pv"
 
 ## list contents of dir, sorted by size
 alias lt="ls --human-readable --size -1 -S --classify"
-
-## ls
-alias sl="ls -Cf"
 
 ## copy using rsync with progress bar
 alias cpv="rsync -ah --info=progress2"
