@@ -1,3 +1,6 @@
+# start tmux on shell login
+[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+
 # shared aliases
 source $HOME/.aliases.sh
 
