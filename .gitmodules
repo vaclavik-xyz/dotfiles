@@ -1,3 +1,6 @@
 [submodule "pass-store"]
 	path = pass-store
 	url = https://gitlab.com/vaclo/pass-store.git
+[submodule "scripts/scripts"]
+	path = scripts/scripts
+	url = https://gitlab.com/vaclo/scripts.git
