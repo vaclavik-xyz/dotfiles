@@ -82,6 +82,7 @@ set hlsearch
 set incsearch 
 " Don't redraw while executing macros (good performance config)
 set lazyredraw 
+set ttyfast
 " For regular expressions turn magic on
 set magic
 " Show matching brackets when text indicator is over them
@@ -98,6 +99,8 @@ set tm=500
 " Set relative column numbers
 set number relativenumber
 " Draws horizontal highlight on the line
+" set cursorline
+" Dont draw horizontal highlight for performance
 set cursorline
 
 """""""""""""""""""""""""""""""
